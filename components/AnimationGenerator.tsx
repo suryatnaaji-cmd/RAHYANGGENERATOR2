@@ -30,7 +30,7 @@ import {
   RefreshCw,
   Film // Added Film icon
 } from 'lucide-react';
-import { GoogleGenAI } from "@google/genai";
+
 import { fileToBase64, delay } from '../utils'; // Added delay import
 
 // --- ANIMAJINASI SYSTEM PROMPT (THE BLUEPRINT) ---
