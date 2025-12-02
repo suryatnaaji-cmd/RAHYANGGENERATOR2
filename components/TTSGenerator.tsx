@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Mic, Loader2 } from 'lucide-react';
-import { GoogleGenerativeAI, Modality } from "@google/generative-ai";
+import { GoogleGenAI, Modality } from "@google/genai";
 import { VOICE_DATA } from '../constants';
 import { base64ToArrayBuffer, pcmToWav } from '../utils';
 
