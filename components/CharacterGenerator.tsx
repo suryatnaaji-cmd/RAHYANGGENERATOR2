@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import React, { useState } from 'react';
 import { Sparkles, Download, RefreshCw, Image as ImageIcon, AlertCircle, Loader2, Wand2, Edit, Lightbulb, ThumbsUp, ThumbsDown, Move, Eye, X } from 'lucide-react';
-import { GoogleGenAI } from '@google/genai'; // Import GoogleGenAI
+
 import { downloadImage } from '../utils'; // Import downloadImage utility
 
 const CharacterGenerator: React.FC = () => {
