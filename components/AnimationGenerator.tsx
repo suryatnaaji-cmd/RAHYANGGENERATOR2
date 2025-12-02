@@ -1,4 +1,4 @@
-
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   Plus, 
