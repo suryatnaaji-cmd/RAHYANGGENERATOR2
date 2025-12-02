@@ -1,4 +1,4 @@
-
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import React, { useState } from 'react';
 import { Loader2, Plus, Trash2, Users, Film, Video, Download, AlertCircle, Ratio } from 'lucide-react';
 import { GoogleGenAI } from "@google/genai";
